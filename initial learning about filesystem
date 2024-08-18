@@ -1,0 +1,28 @@
+This document is information about the filesystem, and is my first serious learning about windows
+
+Files System: NTFS
+
+$Boot - takes part in the booting process
+$MFT (master file table) - has an entry for each file in the filesystem
+$Bitmap - keeps track of clusters
+$LogFile - makes recovery possible
+and others
+
+
+========================== My Layout
+C: - this is a mounted drive containing the operating system
+
+PerfLogs - Supposedly empty
+Program Files - actual program files
+Program Files (x86)
+Users
+Windows
+
+
+
+======================
+ - so I can see that there are two directories in my Host C drive that is absent in the virtualbox C drive. 
+   - both of them are due to the hardware, probably.
+What I will do as a learning opportunity is go through and compare a fresh virtualbox install to my current install
+
+====================It is different
