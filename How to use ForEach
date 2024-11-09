@@ -1,0 +1,12 @@
+function Get-SumOfPositive($NumberArray)
+{
+    $sum = 0
+    $NumberArray | Foreach {
+      if ( $_ -gt 0 ) {
+        $sum = $sum + $_
+      }
+    }
+    
+    
+    return $sum
+}
